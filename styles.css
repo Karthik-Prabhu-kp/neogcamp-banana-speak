@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Josefin+Sans:wght@500;700&family=Oswald:wght@400;700&family=Pacifico&family=Sansita+Swashed:wght@400;700&family=Yeon+Sung&display=swap');
+
+
+:root{
+    --primary-color: white;
+    --black-color: black;
+    --yellow-color:#FACC15;
+
+}
+
+html{
+    background: url(image/minion-1183568_1920.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: ;
+    
+}
+
+#output{
+    border:1px solid var(--yellow-color);
+    height:10vh;
+    padding:1rem;
+    width: 60%;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: auto;
+    color: var(--black-color);
+    background: rgba(151, 148, 0, 0.575);
+    text-align: center;
+}
+
+#text-input{
+    height:10vh;
+    height:10vh;
+    padding: 1rem;
+    width: 60%;
+    font-size: larger;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+
+}
+
+#btn-translate{
+    display: block;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin:auto;
+}
+
+.head {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    color: var(--yellow-color);
+}
+
+/* .default {
+    padding:1rem;
+    font-size: larger;
+    text-align: center;\7\
+    7
+    color: var(--primary-color);
+} */
+
+.text{
+    font-size: x-large;
+    padding:1rem;
+    text-align: center;
+    color: var(--yellow-color);
+}
